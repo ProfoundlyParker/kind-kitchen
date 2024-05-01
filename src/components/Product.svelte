@@ -10,7 +10,7 @@ import SectionWrapper from "./SectionWrapper.svelte";
             "Delicious plant-based food made with love"
         ],
         description: "Vegan, plant-based kitchen commited to making kind eating the norm",
-        imgUrl: ''
+        imgUrl: "assets/bowl.jpg",
     },
     {
         featureList: [
@@ -20,7 +20,7 @@ import SectionWrapper from "./SectionWrapper.svelte";
             "Delicious plant-based food made with love"
         ],
         description: "Vegan, plant-based kitchen commited to making kind eating the norm",
-        imgUrl: ''
+        imgUrl: "assets/burger.jpg",
     },
     {
         featureList: [
@@ -30,7 +30,7 @@ import SectionWrapper from "./SectionWrapper.svelte";
             "Delicious plant-based food made with love"
         ],
         description: "Vegan, plant-based kitchen commited to making kind eating the norm",
-        imgUrl: ''
+        imgUrl: "assets/toast.jpg",
     }
   ]
 
