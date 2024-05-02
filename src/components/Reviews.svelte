@@ -1,6 +1,7 @@
 <script>
   import ReviewCard from "./ReviewCard.svelte";
 import SectionWrapper from "./SectionWrapper.svelte";
+  import Stars from "./Stars.svelte";
 
   let lim = true;
 
@@ -100,6 +101,7 @@ import SectionWrapper from "./SectionWrapper.svelte";
             <p class="mx-auto text-lg sm:text-xl md:text-2xl font-semibold">
                 Trusted by 1,234 Kind Eaters
             </p>
+            <Stars />
         </div>
     </div>
 </SectionWrapper>
