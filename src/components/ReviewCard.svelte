@@ -4,6 +4,7 @@
     export let index;
 </script>
 
+<!-- Displays ReviewCards and name + review -->
 <div
     class={"flex flex-col gap-2 w-full max-w-[500px] mx-auto relative " +
         (left
@@ -16,13 +17,13 @@
 >
     <div class="flex relative">
         <div
-            class={"absolute reounded-full bg-white aspect-square hidden md:grid place-items-center h-4 top-0 " +
+            class={"absolute rounded-full bg-white aspect-square hidden md:grid place-items-center h-4 top-0 " +
                 (index % 2 === 0
                     ? " right-0 -mr-8 translate-x-1/2"
                     : " left-0 -ml-8 -translate-x-1/2")}
         >
             <div
-                class="rounded-full bg-slate-950 aspect-square bg-slate-950 h-2"
+                class="rounded-full bg-slate-950 aspect-square h-2"
             />
         </div>
         <div class="flex items-center gap-2">
