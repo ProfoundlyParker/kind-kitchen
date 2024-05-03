@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
   
   // FAQ Questions and Answers
@@ -43,7 +44,13 @@
             question: "Can I purchase gift cards for Kind Kitchen?",
             ans: "Absolutely! Gift cards are available for purchase at our restaurant. Treat your friends and loved ones to the gift of delicious, sustainable dining.",
         },
-  ]
+  ];
+
+  onMount(() => {
+    faqs.forEach(faq => {
+        faq.open = false;
+    });
+  });
 </script>
 
 <!-- FAQ Section -->
@@ -59,13 +66,24 @@
     </div>
         <div class="flex flex-col gap-8 sm:gap-10 md:gap-14 w-full">
             {#each faqs as faq}
-                <div class="flex flex-col gap-2 text-left max-w-[800px] w-full mx-auto relative p-4 px-6">
-                    <div class="absolute top-0 left-0 w-1/3 h-[1px] bg-green-950 -translate-x-4">
+                <div class="flex flex-col gap-2 text-left max-w-[800px] w-full mx-auto relative p-4 px-2">
+                    <div class="absolute top-0 left-1 w-1/3 h-[1px] bg-green-950 -translate-x-4">
                     </div>
                     <div class="absolute top-0 left-0 h-2/3 w-[1px] bg-green-950 -translate-y-4">
                     </div>
-                    <h4 class="text-lg sm:text-xl md:text-2xl pt-2">{faq.question}</h4>
-                    <p class="pl-2">{faq.ans}</p>
+                    <div class="flex items-center">
+                        <button class="p-1.5 ml-2 text-green-500 focus:outline-none" on:click={() => faq.open = !faq.open}>
+                            {#if faq.open}
+                            <i class="fa-solid fa-chevron-up" />
+                            {:else}
+                            <i class="fa-solid fa-chevron-down" />
+                            {/if}
+                        </button>
+                        <h4 class="text-lg sm:text-xl md:text-2xl pt-2">{faq.question}</h4>
+                    </div>
+                    {#if faq.open}
+                         <p class="pl-2">{faq.ans}</p>
+                    {/if}
                 </div>
             {/each}
         </div>
