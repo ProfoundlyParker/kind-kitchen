@@ -1,3 +1,4 @@
+<!-- Displays stars for review sections -->
 <div class="flex items-center justify-center gap-2 text-base">
     <p>4.7</p>
     {#each [0, 1, 2, 3, 4] as index}
