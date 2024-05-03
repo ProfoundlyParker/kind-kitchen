@@ -27,7 +27,7 @@
             />
         </div>
         <div class="flex items-center gap-2">
-            <i class="fa-solid fa-user" />
+            <i class="fa-solid fa-seedling text-green-400" />
             <h3 class="text-lg sm:text-xl md:text-2xl">
                 {reviewItem.name}
             </h3>
