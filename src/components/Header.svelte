@@ -12,7 +12,7 @@
             <i class="fa-solid fa-bars"></i> 
         </button>
         <nav class="hidden md:flex items-center gap-4 lg:gap-6">
-            <a href="#product" class="duration-200 hover:text-green-400 cursor-pointer">Product</a>
+            <a href="#menu" class="duration-200 hover:text-green-400 cursor-pointer">Menu</a>
             <a href="#reviews" class="duration-200 hover:text-green-400 cursor-pointer">Reviews</a>
             <a href="#faqs" class="duration-200 hover:text-green-400 cursor-pointer">FAQs</a>
             <button class="specialBtn">
