@@ -10,7 +10,7 @@
     <Header />
     <div class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14">
         <h2 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl max-w-[1200px] mx-auto w-full text-center font-semibold">
-            <span class="text-green-400">Eating</span> Kind <span class="text-slate-600 line-through">Is Boring</span><br />
+            <span class="text-green-400">Kind</span> Eating <span class="text-slate-600 line-through">Is Boring</span><br />
             Easier Than <span class="text-green-400">Ever</span>
         </h2>
         <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full">Less harm, more kindness. We're a vegan kitchen
