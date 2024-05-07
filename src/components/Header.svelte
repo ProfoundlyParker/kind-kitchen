@@ -4,7 +4,7 @@
 
 <!-- Displays brand Header and navigation menu button -->
 <header class="flex flex-col relative z-20">
-    <div class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6">
+    <div class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6 text-2xl">
         <a href="/">
             <h1 class="font-semibold"><span class="text-green-400">Kind</span> Kitchen</h1>
         </a>

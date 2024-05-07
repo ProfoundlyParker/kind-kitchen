@@ -18,7 +18,7 @@
   <!-- If openModal = true, this displays the mobile navigation menu -->
   {#if $openModal}
     <div class="fixed top-0 left-0 w-screen h-screen border-b bg-white z-50 flex flex-col gap-8 p-5 px-8 md:hidden">
-      <div class="flex items-center justify-between gap-4 border-b pb-2">
+      <div class="flex items-center justify-between gap-4 border-b pb-2 text-2xl">
         <a href="/" on:click={() => ($openModal = false)}>
           <h1 class="font-semibold"><span class="text-green-400">Kind</span> Kitchen</h1>
         </a>
