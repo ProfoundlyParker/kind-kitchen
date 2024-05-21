@@ -17,6 +17,6 @@
             <span class="italic">committed to making kind food delicious.</span> Eat kind today!
         </p>
         <CtAs />
-        <Stars />
+        <a href="#reviews"><Stars /></a>
     </div>
 </SectionWrapper>
