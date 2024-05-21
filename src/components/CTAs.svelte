@@ -11,7 +11,7 @@
     </button>
     <button class="specialBtnDark">
         <p class="text-base sm:text-lg md:text-xl">
-            Get Started &rarr;
+            Order Now &rarr;
         </p>
     </button>
 </div>
