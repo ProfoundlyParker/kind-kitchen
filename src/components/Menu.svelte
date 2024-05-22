@@ -30,7 +30,7 @@
     },
     {
         name: "Butternut Squash Soup",
-        description: "Butternut squash soup, topped with pumpkin seeds.",
+        description: "Creamy butternut squash soup, topped with pumpkin seeds.",
         imgUrl: "assets/squash-soup.jpg",
         price: "$9.99"
     },
@@ -54,7 +54,7 @@
                 Menu
             </h3>
         </div>
-        <div class="max-w-[1600px] w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-0.5">
+        <div class="max-w-[1600px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0.5">
             {#each menuFeatures as menuFeature}
                 <MenuCard {menuFeature} />
             {/each}
