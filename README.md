@@ -1,38 +1,24 @@
-# create-svelte
+<h1 align='center'>Kind Kitchen<br>
+  Live Site: https://kindkitchen.netlify.app/
+</h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![robofriends](readme-imgs/kk-header.png)
 
-## Creating a project
+## Description
+<p>A SvelteKit landing page for a vegan restaurant. Built with <strong>SvelteKit</strong>, <strong>SvelteKit routing</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS</strong>, deployed on <strong>Netlify</strong></p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
+<li>Vegan Menu cards</li><br>
+<img src='readme-imgs/kk-menu.png'>
+<li>Read through reviews</li><br>
+<img src='readme-imgs/kk-reviews.gif.gif'>
+<li>Check out FAQs</li><br>
+<img src='readme-imgs/kk-faq-gif.gif'>
+<li>Footer with CTA</li><br>
+<img src='readme-imgs/kk-footer.png'>
+<li>Mobile-friendly</li><br>
+<img src='readme-imgs/mobile.gif'>
+<li>Custom site favicon</li><br>
+<img src='static/favicon.png' height='200' width='200'>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
